@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Playfair+Display:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Bella Vita Restaurant</title>
+  </head>
+  <body>
+    <header id="home" class="bg-dark text-white">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="#">Bella Vita</a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNav"
+            aria-controls="mainNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto align-items-lg-center">
+              <li class="nav-item">
+                <a class="nav-link active" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#menu">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Us</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div
+        class="hero d-flex align-items-center"
+        style="
+          background: url('assets/lasagna.jpeg') center/cover no-repeat;
+          height: 100vh;
+        "
+      >
+        <div class="container text-center text-white">
+          <h1 class="display-5 fw-bold">Welcome to Bella Vita</h1>
+          <p class="lead mb-4">Savor the Taste of Italy, One Bite at a Time.</p>
+          <a href="#menu" class="btn btn-warning btn-lg">Order Now</a>
+          <a href="#contact" class="btn btn-outline-light btn-lg ms-2"
+            >Reserve a Table</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <section id="menu" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Our Menu</h2>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="assets/Spaghetti alla Carbonara"
+                class="card-img-top"
+                alt="Creamy Pasta"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Spaghetti alla Carbonara</h5>
+                <p class="card-text text-muted mb-2">
+                  Traditional Roman pasta tossed with creamy eggs, crispy
+                  pancetta, and aged Pecorino Romano cheese.
+                </p>
+                <div
+                  class="mt-auto d-flex justify-content-between align-items-center"
+                >
+                  <span class="fw-bold">€14.50</span>
+                  <a href="#" class="btn btn-outline-primary btn-sm">Order</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="assets/Margherita Classica Pizza.jpeg"
+                class="card-img-top"
+                alt="Creamy Pasta"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Margherita Classica Pizza</h5>
+                <p class="card-text text-muted mb-2">
+                  A wood-fired Neapolitan pizza topped with San Marzano
+                  tomatoes, fresh mozzarella, basil, and a drizzle of extra
+                  virgin olive oil.
+                </p>
+                <div
+                  class="mt-auto d-flex justify-content-between align-items-center"
+                >
+                  <span class="fw-bold">€12.00</span>
+                  <a href="#" class="btn btn-outline-primary btn-sm">Order</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="assets/Risotto ai Funghi Porcini.jpeg"
+                class="card-img-top"
+                alt="Creamy Pasta"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Risotto ai Funghi Porcini</h5>
+                <p class="card-text text-muted mb-2">
+                  Creamy Arborio rice infused with porcini mushrooms, garlic,
+                  and white wine, finished with Parmesan and fresh herbs.
+                </p>
+                <div
+                  class="mt-auto d-flex justify-content-between align-items-center"
+                >
+                  <span class="fw-bold">€15.50</span>
+                  <a href="#" class="btn btn-outline-primary btn-sm">Order</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="assets/Tiramisu della Casa.jpeg"
+                class="card-img-top"
+                alt="Creamy Pasta"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Tiramisu della Casa</h5>
+                <p class="card-text text-muted mb-2">
+                  Our homemade tiramisu — layers of espresso-soaked ladyfingers
+                  and mascarpone cream, dusted with cocoa.
+                </p>
+                <div
+                  class="mt-auto d-flex justify-content-between align-items-center"
+                >
+                  <span class="fw-bold">€7.00</span>
+                  <a href="#" class="btn btn-outline-primary btn-sm">Order</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="bg-light py-5">
+      <div class="container">
+        <div class="row align-items-center gy-4">
+          <div class="col-md-6">
+            <img
+              src="assets/inner-rest.jpeg"
+              class="img-fluid rounded"
+              alt="Restaurant Interior"
+            />
+          </div>
+          <div class="col-md-6">
+            <h3>About Us</h3>
+            <p>
+              At Bella Vita, we bring a piece of Italy to your table. Founded by
+              a family of passionate chefs from Naples, our restaurant
+              celebrates authentic Italian cooking made with love, simplicity,
+              and the finest ingredients. From the aroma of fresh basil to the
+              warmth of homemade pasta, every dish tells a story — one of
+              tradition, family, and joy. Whether you’re here for a romantic
+              dinner or a friendly gathering, Bella Vita invites you to slow
+              down and enjoy “la dolce vita”, the sweet life.
+            </p>
+            <a href="#menu" class="btn btn-outline-secondary">See our Menu</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <form action="#" method="post">
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  class="form-control"
+                  placeholder="Your name"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  class="form-control"
+                  placeholder="you@example.com"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="msg" class="form-label">Message</label>
+                <textarea
+                  id="msg"
+                  class="form-control"
+                  rows="4"
+                  placeholder="Your message"
+                ></textarea>
+              </div>
+              <div class="d-grid">
+                <button type="submit" class="btn btn-primary btn-lg">
+                  Send Message
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-white py-4">
+      <div
+        class="container d-flex flex-column flex-md-row justify-content-between align-items-center"
+      >
+        <p class="mb-2 mb-md-0">© 2025 Bella Vita. All rights reserved.</p>
+        <div>
+          <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-white me-3"
+            ><i class="bi bi-instagram"></i
+          ></a>
+          <a href="#" class="text-white"><i class="bi bi-twitter"></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
