@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Playfair+Display:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>BonVoyage Agency</title>
+  </head>
+  <body>
+    <!-- Navigation Bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">BonVoyage</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#destinations">Destinations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tours">Tours</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section-->
+    <section id="home" class="hero d-flex align-items-center text-center">
+      <div class="container text-white">
+        <h1 class="display-4 fw-bold">Discover the world with BonVoyage</h1>
+        <p class="lead mb-4">
+          Unforgettable journeys crafted for every traveler
+        </p>
+        <a href="#destinations" class="btn btn-bg btn-lg"
+          >Book Your Adventure</a
+        >
+      </div>
+    </section>
+
+    <!-- Destinations Section-->
+
+    <section id="destinations" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">Top Destinations</h2>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <img src="assets/paris-3.jpg" alt="Paris" class="card-img-top" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Paris, France</h5>
+                <p class="card-text">
+                  The city of lights and love, stroll through charming streets,
+                  admire the Eiffel Tower, and savor the finest pastries in the
+                  world.
+                </p>
+                <a href="#" class="btn">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <img src="assets/bali-1.jpg" alt="Bali" class="card-img-top" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Bali, Indonesia</h5>
+                <p class="card-text">
+                  A tropical paradise of emerald rice terraces, golden beaches,
+                  and peaceful temples, perfect for relaxation and renewal.
+                </p>
+                <a href="#" class="btn">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <img src="assets/tokyo-1.jpg" alt="Tokyo" class="card-img-top" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Tokyo, Japan</h5>
+                <p class="card-text">
+                  A vibrant fusion of tradition and technology, from neon-lit
+                  streets to serene gardens and centuries-old shrines.
+                </p>
+                <a href="#" class="btn">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <img src="assets/rome-1.jpg" alt="Rome" class="card-img-top" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Rome, Italy</h5>
+                <p class="card-text">
+                  jWalk through history in the Eternal City, admire the
+                  Colosseum, taste authentic Italian gelato, and enjoy la dolce
+                  vita.
+                </p>
+                <a href="#" class="btn">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <img
+                src="assets/santorini-1.jpg"
+                alt="Santorini"
+                class="card-img-top"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Santorini, Greece</h5>
+                <p class="card-text">
+                  Whitewashed houses overlooking the deep blue Aegean Sea, the
+                  perfect spot for romance, sunsets, and Mediterranean charm.
+                </p>
+                <a href="#" class="btn">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <img
+                src="assets/marrakech.jpg"
+                alt="Marrakech"
+                class="card-img-top"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Marrakech, Morocco</h5>
+                <p class="card-text">
+                  Dive into the colors and scents of Morocco. Explore bustling
+                  souks, ancient palaces, and the charm of the red city.
+                </p>
+                <a href="#" class="btn">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tours Section-->
+
+    <section id="tours" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-5">Our Tour Packages</h2>
+        <div class="accordion" id="toursAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+              >
+                European Explorer
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#toursAccordion"
+            >
+              <div class="accordion-body">
+                Visit multiple European capitals with guided tours, hotels, and
+                meals included. <a href="#">View Details</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+              >
+                Tropical Getaway
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#toursAccordion"
+            >
+              <div class="accordion-body">
+                Spend a week in Bali or Maldives with luxury accommodation and
+                private excursions. <a href="#">View Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+              >
+                Mountain Adventure
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#toursAccordion"
+            >
+              <div class="accordion-body">
+                Embark on a thrilling journey through breathtaking mountain
+                ranges, from the Alps to the Himalayas. Enjoy guided hikes, cozy
+                lodges, and unforgettable sunrise views above the clouds.
+                Perfect for adventure lovers seeking both challenge and
+                serenity. <a href="#">View Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+              >
+                Desert Discovery
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse"
+              data-bs-parent="#toursAccordion"
+            >
+              <div class="accordion-body">
+                Experience the magic of the world’s most majestic deserts. Ride
+                camels across golden dunes, spend starry nights in luxurious
+                desert camps, and immerse yourself in the ancient cultures of
+                Morocco, Jordan, and beyond. <a href="#">View Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFive"
+              >
+                Asian Escape
+              </button>
+            </h2>
+            <div
+              id="collapseFive"
+              class="accordion-collapse collapse"
+              data-bs-parent="#toursAccordion"
+            >
+              <div class="accordion-body">
+                Discover the diversity of Asia, from the vibrant streets of
+                Bangkok to the tranquil temples of Kyoto. Indulge in exotic
+                cuisine, ancient traditions, and breathtaking natural beauty on
+                this unforgettable cultural journey.
+                <a href="#">View Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Us Section-->
+
+    <section id="contact" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <form class="w-75 mx-auto">
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" />
+          </div>
+          <div class="mb-3">
+            <label for="destination" class="form-label"
+              >Destination of Interest</label
+            >
+            <input type="text" class="form-control" id="destination" />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="3"> </textarea>
+          </div>
+          <button type="submit" class="btn btn-bg">Send Message</button>
+        </form>
+      </div>
+    </section>
+    <!-- Footer-->
+    <footer class="text-white text-center py-3">
+      <p>
+        &copy; 2025 BonVoyage | Follow us:
+        <a href="#" class="text-white ms-2"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="text-white ms-2"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="text-white ms-2"><i class="bi bi-twitter"></i></a>
+      </p>
+    </footer>
+
+    <!--  Bootsrap's JavaScript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
